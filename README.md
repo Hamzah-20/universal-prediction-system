@@ -340,6 +340,13 @@ Feature: Date
 
 ---
 
+## Live Demo
+View Live Application : [Visit The Page](https://universal-prediction-system.onrender.com/)
+
+Note: To ensure stable performance on the free hosting tier, it is recommended to use small-to-medium sized datasets when training models online.
+
+---
+
 ##  System Preview
 
 ###  Dashboard
