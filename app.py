@@ -1876,6 +1876,11 @@ if __name__ == '__main__':
     print("  5. Future predictions (time series)")
     print("  6. Batch predictions from files (with or without headers)")
     print("  7. Data analysis and visualization")
-    print("\n🚀 Access: http://127.0.0.1:5001")
+
+    import os
+    port = int(os.environ.get("PORT", 5001))
+
+    print(f"\n🚀 Running on port: {port}")
     print("=" * 60)
-    app.run(debug=True, host='127.0.0.1', port=5001)
+
+    app.run(host="0.0.0.0", port=port)
